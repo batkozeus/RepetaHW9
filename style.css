@@ -1,0 +1,40 @@
+.wrapper {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gold;
+    border-radius: 15px;
+    padding: 2%;
+    width: 960px;
+    background: #bbecec;
+    margin: 0 auto;
+}
+
+.stopwatch {
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid #4a4a4c;
+    border-radius: 14px;
+    padding: 14px;
+    background-color: #879087;
+    font-size: 24px;
+}
+
+.btn {
+    font-size: 20px;
+    margin: 0 6px;
+    padding: 4px 12px;
+    width: 112px;
+    height: 40px;
+    background-color: #ccb620;
+    border: 2px solid #717105;
+    border-radius: 6px;
+}
+
+.js-laps {
+    list-style: none;
+    padding: 0;
+    font-size: 28px;
+}
